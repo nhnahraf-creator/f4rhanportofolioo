@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>myPortfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="cursor-glow"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <h1 class="logo">myPortfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#portfolio">Experience</a>
+      <a href="#projek">Project</a>
+      <a href="#blog">Blog</a>
+      <a href="#game">Game</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =============== HOME =============== -->
+    <section id="home" class="hero-upgraded">
+      <div class="hero-container">
+
+        <!-- FOTO -->
+        <div class="hero-photo fade-in soft-hover click-wobble">
+          <img src="1.jpg" alt="Profil" class="hero-img">
+        </div>
+
+        <!-- TEKS -->
+        <div class="hero-text fade-in">
+          <p class="hero-badge">🔧 Web Developer | IoT Maker</p>
+
+          <h1 class="hero-title">
+            halloo, sayaa <span>farhan dhiya’ul haq</span>
+          </h1>
+
+          <p class="hero-desc">
+            Saya pelajar yang fokus pada Web Development, IoT, Smart Automation,
+            serta membuat project elektronik & robotika modern.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn-primary click-wobble">Tentang Saya</a>
+            <a href="#contact" class="btn-outline click-wobble">Hubungi Saya</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============== Skills =============== -->
+    <section id="about" class="section">
+      <div class="hero-right card">
+        <h2>Tentang Saya</h2>
+        <p class="meta">
+          Saya adalah seorang pelajar yang ingin menjadi pengembang yang fokus pada bidang IoT,
+          pemrograman web, dan pengembangan sistem otomatisasi. Saya senang membuat proyek modern
+          seperti SmartHome, Robotik, dan Dashboard IoT.
+        </p>
+      </div>
+    </section>
+
+    <!-- =============== TENTANG SAYA / SKILL =============== -->
+    <section id="portfolio" class="section">
+      <h2>Experience/skills</h2>
+
+      <div class="grid">
+
+        <!-- Keahlian -->
+        <article class="card project-card">
+          <h3>Keahlian</h3>
+          <p class="meta">
+            • Pemrograman Web (HTML, CSS, JS)<br>
+            • IoT (ESP8266/ESP32, Sensor, MQTT)<br>
+            • Desain UI/UX<br>
+            • Mikrokontroler & Elektronika Dasar
+          </p>
+        </article>
+
+        <!-- Pengalaman -->
+        <article class="card project-card">
+          <h3>Pengalaman</h3>
+          <p class="meta">
+            • Membangun sistem SmartHome berbasis IoT<br>
+            • Aplikasi jarak ultrasonik<br>
+            • Dashboard IoT<br>
+            • Website Dark 3D
+          </p>
+        </article>
+
+        <!-- Keterampilan -->
+        <article class="card project-card">
+          <h3>Keterampilan</h3>
+          <p class="meta">
+            • Problem Solving<br>
+            • Manajemen Proyek<br>
+            • Desain Interface<br>
+            • Kerja Tim & Komunikasi
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- =============== PROJEK =============== -->
+    <section id="projek" class="section">
+      <h2>Project Hasil Karya</h2>
+
+      <div class="grid">
+
+        <article class="card project-card">
+          <img src="2.jpeg" alt="Robot Avoider">
+          <h3>Robot Avoider</h3>
+          <p class="meta">
+            Menghindari tabrakan saat bergerak (misalnya robot mobil kecil).
+            Latihan pembelajaran robotika untuk siswa—mengenal sensor, logika pemrograman, dan kontrol motor. Pembersih otomatis seperti robot vacuum cleaner (contohnya: bergerak dan berhenti ketika mendekati tembok). Navigasi sederhana tanpa peta (robot hanya mengikuti sensor yang mendeteksi objek di depan).
+          </p>
+        </article>
+
+        <article class="card project-card">
+          <img src="4.jpeg" alt="SmartHome">
+          <h3>SmartHome Automation</h3>
+          <p class="meta">
+            Menghemat energi
+          Contoh: Lampu otomatis mati ketika ruangan kosong.
+            Keamanan
+          Contoh: Kamera pintar, kunci pintu digital, sensor gerak.
+            Kenyamanan
+          Contoh: Mengatur lampu, AC, atau perangkat    lain lewat smartphone atau suara.
+          Pengawasan jarak jauh
+          Kamu bisa melihat kondisi rumah dari mana saja.
+          </p>
+        </article>
+
+        <article class="card project-card">
+          <img src="5.jpeg" alt="Ultrasonic">
+          <h3>Pengukur Jarak Ultrasonik</h3>
+          <p class="meta">
+            Sensor ini banyak dipakai untuk:
+            Robot penghindar halangan (robot avoider)
+            Parkir otomatis mobil
+            Pengukur ketinggian air tangki
+            Pintu otomatis
+            Smart home (deteksi gerakan benda besar)
+            Sistem keamaan / alarm
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="blog" class="section">
+  <h2>Blog — Cara Membuat Prototype SmartHome</h2>
+
+  <div class="card">
+
+    <!-- FOTO SMART HOME -->
+    <img src="blog1.jpeg" alt="Prototype SmartHome" style="width:100%; border-radius:12px; margin-bottom:15px;">
+
+    <h3>Langkah-langkah Membuat Prototype SmartHome</h3>
+
+    <p class="meta">
+      Berikut adalah tahapan sederhana membuat sistem SmartHome berbasis IoT:
+      <br><br>
+      <b>1. Menentukan Fitur SmartHome</b><br>
+      • Kontrol lampu otomatis<br>
+      • Monitoring suhu / keamanan<br>
+      • Kontrol AC / kipas via HP<br><br>
+
+      <b>2. Menyiapkan Komponen</b><br>
+      • ESP8266 / ESP32<br>
+      • Relay / modul kontrol listrik<br>
+      • Sensor (DHT11, PIR, Ultrasonik)<br>
+      • Aplikasi / dashboard IoT<br><br>
+
+      <b>3. Merangkai Prototipe</b><br>
+      • Hubungkan mikrokontroler ke relay & sensor<br>
+      • Buat wiring rapi seperti miniatur rumah<br><br>
+
+      <b>4. Pemrograman</b><br>
+      • Gunakan Arduino IDE / PlatformIO<br>
+      • Atur koneksi WiFi & MQTT<br><br>
+
+      <b>5. Testing</b><br>
+      • Cek fungsi lampu ON/OFF<br>
+      • Uji sensor gerak & suhu<br><br>
+
+      <b>6. Finishing</b><br>
+      • Tambahkan box / casing<br>
+      • Rapikan kabel<br>
+    </p>
+  </div>
+</section>
+
+<!-- =============== GAME =============== -->
+  <section id="game" class="section">
+  <h2>Game Edukasi</h2>
+
+  <div class="grid">
+
+    <article class="card project-card">
+      <h3>Game Matematika</h3>
+      <p class="meta">Latihan berhitung cepat — tambah, kurang, kali.</p>
+      <button onclick="startMathGame()" class="btn-primary">Mulai Game</button>
+      <p id="math-question" class="meta"></p>
+      <input id="math-answer" type="number" placeholder="Jawaban..." style="margin-top:10px;">
+      <button onclick="checkMathAnswer()" class="btn-outline">Cek</button>
+      <p id="math-result"></p>
+    </article>
+
+    <article class="card project-card">
+      <h3>Game Bahasa Inggris</h3>
+      <p class="meta">Tebak arti kata sederhana dalam Bahasa Inggris.</p>
+      <button onclick="startEnglishGame()" class="btn-primary">Mulai Game</button>
+      <p id="eng-question" class="meta"></p>
+      <input id="eng-answer" type="text" placeholder="Jawaban..." style="margin-top:10px;">
+      <button onclick="checkEnglishAnswer()" class="btn-outline">Cek</button>
+      <p id="eng-result"></p>
+    </article>
+
+  </div>
+</section>
+
+
+    <!-- =============== SOCIAL MEDIA =============== -->
+          <div class="social-wrapper" style="margin-top:45px; justify-content:flex-start;">
+
+            <a href="https://github.com/" target="_blank" class="soc-item">
+              <svg width="120" height="50" fill="#4ad9ff" viewBox="0 0 24 24">
+                <path d="M12 0.5C5.65 0.5 0.5 5.65 0.5 12c0 5.1 3.3 9.45 7.9 11 0.6 0.1 0.8-0.25 0.8-0.55v-2c-3.2 0.7-3.9-1.4-3.9-1.4-0.55-1.4-1.35-1.8-1.35-1.8-1.1-0.75 0.1-0.75 0.1-0.75 1.2 0.1 1.85 1.25 1.85 1.25 1.05 1.85 2.75 1.3 3.4 1 0.1-0.75 0.4-1.3 0.75-1.6-2.55-0.3-5.25-1.3-5.25-6 0-1.3 0.45-2.35 1.25-3.2-0.15-0.3-0.55-1.55 0.1-3.2 0 0 1.05-0.35 3.3 1.2A11.3 11.3 0 0 1 12 6.8c1.1 0 2.2 0.15 3.25 0.45 2.25-1.55 3.3-1.2 3.3-1.2 0.65 1.65 0.25 2.9 0.1 3.2 0.8 0.85 1.25 1.9 1.25 3.2 0 4.75-2.7 5.7-5.3 6 0.4 0.35 0.8 1.05 0.8 2.2v3.2c0 0.3 0.2 0.65 0.8 0.55A11.54 11.54 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z" />
+              </svg>
+              <p>GitHub</p>
+            </a>
+
+            <a href="https://www.tiktok.com/@prhannd?is_from_webapp=1&sender_device=pc"_blank class="soc-item">
+              <svg width="120" height="50" fill="#4ad9ff" viewBox="0 0 24 24">
+                <path d="M16 1c1 3 3 5 6 5v4c-2 0-4-1-6-2v7a7 7 0 1 1-7-7c1 0 2 0 3 1v4c-1-1-3-1-4 0a3 3 0 0 0 2 5 3 3 0 0 0 3-3V1h3Z" />
+              </svg>
+              <p>TikTok</p>
+            </a>
+
+            <a href="http://www.youtube.com/@farhann-d" target="_blank" class="soc-item">
+              <svg width="120" height="50" fill="#4ad9ff" viewBox="0 0 24 24">
+                <path d="M23 7.5c-.25-1.5-1.5-2.7-3-3C17.5 4 12 4 12 4s-5.5 0-8 0.5c-1.5.3-2.8 1.5-3 3C0.5 9 0.5 12 0.5 12s0 3 0.5 4.5c.2 1.5 1.5 2.8 3 3C6.5 20 12 20 12 20s5.5 0 8-0.5c1.5-.2 2.75-1.5 3-3C23.5 15 23.5 12 23.5 12s0-3-.5-4.5ZM10 15.5v-7l6 3.5-6 3.5Z" />
+              </svg>
+              <p>YouTube</p>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============== CONTACT =============== -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <div class="contact-box">
+        <p>Email : nhnahraf@gmail.com</p>
+        <p>Telp  : 083845165637</p>
+        <p>TikTok: @prhannd </p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d587.0206932173223!2d113.11206922278176!3d-8.203882105973937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1764742610604!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============== FOOTER =============== -->
+  <footer>
+    © 2025 — MyPortfolio. @frhanndhiyaul
+  </footer>
+
+  <!-- Smooth Scroll -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
